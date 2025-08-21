@@ -1,16 +1,55 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Navigation -->
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#about">About</a></li>
+      <li role="listitem"><a href="#skills">Skills</a></li>
+      <li role="listitem"><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Heading -->
+  <h1 role="heading">Affan Rafique Alam - Portfolio</h1>
+
+  <!-- Image -->
+  <img src="your-image.jpg" alt="Affan Rafique Alam Photo" role="img">
+
+  <!-- Brief Description -->
+  <section id="about">
+    <p>
+      Hello! I’m Affan Rafique Alam, a passionate developer who loves building creative and efficient software solutions.  
+      I specialize in web development, machine learning, and database management.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2 role="heading">Skills</h2>
+    <ul role="list">
+      <li role="listitem">HTML, CSS, JavaScript</li>
+      <li role="listitem">Python & Machine Learning</li>
+      <li role="listitem">Database Management (MySQL, MongoDB)</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 role="heading">Projects</h2>
+    <ul role="list">
+      <li role="listitem">Flora Fusion – Online Flower Bouquet Delivery Website</li>
+      <li role="listitem">E-commerce Website with ML-based Recommendations</li>
+      <li role="listitem">Video Library Management System</li>
+    </ul>
+  </section>
 
 </body>
-
 </html>
